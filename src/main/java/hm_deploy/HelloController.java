@@ -11,6 +11,6 @@ public class HelloController {
     @GetMapping("/hola")
     public String hola(){
     	System.out.println(message);
-        return "Bienvenido a tu deploy de Spring en Heroku!";
+        return "Bienvenido a tu deploy de Spring en Heroku XD!";
     }
 }

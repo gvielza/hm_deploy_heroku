@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 	@Value("${app.message}")
 	String message;
-    @GetMapping("/hola")
+    @GetMapping
     public String hola(){
     	System.out.println(message);
         return "Bienvenido a tu deploy de Spring en Heroku XD!";
